@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Mamepetto3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6BB41A09-6A7A-4383-89B8-1332557D1711}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Mamepetto3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Mamepetto3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DF209FC0-CFC6-4CEE-99BE-DAFDAADFA17E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Mamepetto3">
+      <UniqueIdentifier>{493F1B24-CE6B-45E4-87BB-5A4EB2F44EB9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Mamepetto3\Item.cpp">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mamepetto3\Item.h">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Mamepetto3\Mamepetto.cpp">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mamepetto3\Mamepetto.h">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Mamepetto3\Mamepetto3.Build.cs">
+      <Filter>Source\Mamepetto3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Mamepetto3\Mamepetto3.cpp">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mamepetto3\Mamepetto3.h">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Mamepetto3\Mamepetto3GameModeBase.cpp">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mamepetto3\Mamepetto3GameModeBase.h">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Mamepetto3",
+			"Path": "E:\\Year_2\\COM559 - Games Programming\\Mamepetto3\\Mamepetto3\\Source\\Mamepetto3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Mamepetto3Editor",
+			"Path": "E:\\Year_2\\COM559 - Games Programming\\Mamepetto3\\Mamepetto3\\Source\\Mamepetto3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

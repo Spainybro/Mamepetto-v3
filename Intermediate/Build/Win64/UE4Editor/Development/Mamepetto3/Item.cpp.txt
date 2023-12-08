@@ -1,0 +1,3 @@
+E:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4Editor\Development\Mamepetto3\Definitions.Mamepetto3.h
+E:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Source\Mamepetto3\Item.h
+E:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4Editor\Inc\Mamepetto3\Item.generated.h
