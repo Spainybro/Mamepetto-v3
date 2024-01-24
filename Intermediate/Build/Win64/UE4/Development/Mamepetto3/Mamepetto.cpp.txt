@@ -1,0 +1,15 @@
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4\Development\Mamepetto3\Definitions.Mamepetto3.h
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Source\Mamepetto3\Mamepetto.h
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Source\Mamepetto3\Item.h
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4\Inc\Mamepetto3\Item.generated.h
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4\Inc\Mamepetto3\Mamepetto.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath

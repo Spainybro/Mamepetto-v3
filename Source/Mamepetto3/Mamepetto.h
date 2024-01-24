@@ -29,24 +29,44 @@ class MAMEPETTO3_API AMamepetto : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMamepetto();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mamepetto Energy")
+	int Energy = 100;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Mamepetto Mesh")
-		class UStaticMeshComponent* MamepettoMesh;
+		class UStaticMeshComponent* MameMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Mamepetto Material")
+		class UMaterial* MameMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mamepetto Speed")
 
 		int MameUpdateSpeed;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mamepetto Speed")
 
-		int MameMoveSpeed;
+		int MameMoveSpeed = 10;
+	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,Category = "Mamepetto Direction")
+		FString MameDirectionString;
+
+
 private:
-	int Energy = 100;
+	
 	int UpdateTick = 0;
 
 	void Movement(float DeltaTime);
+	void HMovement(float DeltaTime);
+	bool HMovePos = true;
+	float HMultiplier = 0;
+	float HLocation = 100;
+
+	void MovementCheckBoundries();
+	void MovementGoToLocation(float DeltaTime);
 	void CheckForItem();
+	int ClosestItem(TArray<AActor*> _Items);
 
 	EDirectionState MameDirection;
-	FString MameDirectionString;
+	
+	FVector Location;
+	FRotator Rotation;
 
 	class AItem* ItemTarget;
 

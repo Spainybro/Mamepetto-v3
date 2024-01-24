@@ -17,6 +17,7 @@ public:
 private:
 
 	int FoodValue;
+	int RanColour;
 
 protected:
 	// Called when the game starts or when spawned
@@ -24,9 +25,14 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Item Mesh")
 		class UStaticMeshComponent* ItemMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Item Material")
+		class UMaterial* ItemMaterial;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	int GetFoodValue();
+	bool HasBeenEaten;
 
 };

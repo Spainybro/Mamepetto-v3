@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Mamepetto3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6BB41A09-6A7A-4383-89B8-1332557D1711}</UniqueIdentifier>
+      <UniqueIdentifier>{8FFB82D4-6492-4487-BC25-EC927DAEC978}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Mamepetto3.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\Mamepetto3Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{DF209FC0-CFC6-4CEE-99BE-DAFDAADFA17E}</UniqueIdentifier>
+      <UniqueIdentifier>{F68E6132-7EA7-44C2-B5DB-54A9EC8C9F86}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,12 +26,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Mamepetto3">
-      <UniqueIdentifier>{493F1B24-CE6B-45E4-87BB-5A4EB2F44EB9}</UniqueIdentifier>
+      <UniqueIdentifier>{4B4110EA-E240-496F-8C3F-0BCA3E8AC54C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Mamepetto3\CameraDirector.cpp">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mamepetto3\CameraDirector.h">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Mamepetto3\Item.cpp">
       <Filter>Source\Mamepetto3</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Mamepetto3\Item.h">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Mamepetto3\ItemSpawner.cpp">
+      <Filter>Source\Mamepetto3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Mamepetto3\ItemSpawner.h">
       <Filter>Source\Mamepetto3</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Mamepetto3\Mamepetto.cpp">

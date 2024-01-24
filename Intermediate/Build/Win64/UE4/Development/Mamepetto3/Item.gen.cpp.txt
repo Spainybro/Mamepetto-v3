@@ -1,0 +1,5 @@
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4\Development\Mamepetto3\Definitions.Mamepetto3.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Source\Mamepetto3/Item.h
+D:\Year_2\COM559 - Games Programming\Mamepetto3\Mamepetto3\Intermediate\Build\Win64\UE4\Inc\Mamepetto3\Item.generated.h
